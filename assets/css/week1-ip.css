@@ -1,0 +1,32 @@
+.navbar a{
+  color: deeppink;
+  text-decoration: none;
+  text-align: justify; 
+}
+
+h3 a{
+  color:deeppink;
+  text-decoration: none;
+  margin-right: 10px; 
+}
+span{
+  justify-content:center;
+  display: flex;
+}
+
+h1{
+  color:deeppink;
+}
+
+.two-headers{
+  background-color: deeppink;
+}
+
+.navbar button{
+  color: deeppink;
+  display: flex;
+
+}
+.navbar a{
+  text-decoration: none;
+}

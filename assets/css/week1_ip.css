@@ -81,7 +81,7 @@ h3 {
 #sly{ 
     display:flex;
     margin-top: 100px;
-    margin-right: 20px;
+    margin-right: 100px;
 }
     
 
@@ -124,7 +124,7 @@ img {
 
 .row {
     box-sizing: border-box;
-    float: inline;
+    display: flex;
 }
 
 .column {

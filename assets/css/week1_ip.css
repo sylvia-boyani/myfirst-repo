@@ -1,126 +1,149 @@
-*{margin-right: 10px;
+* {
+    margin-right: 10px;
     font-family: "Nunito";
     padding: 0%;
-    }
-    a{color: deeppink;
-    text-decoration: none;}
-    
-    h4{display: inline;
-    }
-    .navbar, button{
-      background-color: deeppink;
-      text-align: center;
-      padding: 10px 30px;
-      text-decoration: none;
-      font-size: 16px;
-      border: none;
-      margin: 2px 1px;
-      border-radius: 10%;
-    }
+}
 
-    .navbar, ul{
-        font-size:x-small;
-        display: inline;
-    }
-    h1{color: deeppink;}
-    h5{
-      font-weight: normal;
-      margin-top: 20ch;}
+a {
+    color: deeppink;
+    text-decoration: none;
+}
 
-    .container
-    {
-      margin: 20px;
-      width: 50%;
-      padding: 8px;
-    }
-    .container, img{
-      float: right;
-      margin-left: 15px;
-      padding: 0 0 0 0;
-    }
-    
-    .text{
-      text-align: left;
-      font-family: "Nunito";
-    }
-    
-    h3{
-      font-weight: normal;
-      text-align: left;
-    }
-    
-    .sly
-    {
-      margin: 20px;
-      width: 50%;
-      padding: 8px;
-    
-    }
-    img{
-      float: left;
-      margin-top: 0%;
-      width: 300px;
-      height: 300px;
-      padding: 0%;
-    }
-    
-    .text{
-      text-align: right;
-      font-family: "Nunito";
-    }
-    
-    .boyani
-    {
-      margin: 20px;;
-      width: 50%;
-      padding: 8px;
-    
-    }
-    img{
-      float: right;
-      margin-top: 0%;
-      width: 300px;
-      height: 300px;
-      padding: 0 0 0 0;
-    }
-    
-    .text{
-      text-align: left;
-      font-family: "Nunito";
-    }
-    
-    .sylvia
-    {
-      margin: 20px;;
-      width: 50%;
-      padding: 8px;
-    
-    }
-    img{
-      float: left;
-      margin-top: 0%;
-      width: 300px;
-      height: 300px;
-      padding: 0 0 0 0;
-    }
-    
-    .text{
-      text-align: right;
-      font-family: "Nunito";
-    }
-    
-    .row{
-      box-sizing: border-box;
-      float: inline;
-    }
-    
-    .column {
-      width: 25%;
-      padding: 5px;
-      display
-    }
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+h4 {
+    display: inline;
+}
+
+.navbar,
+button {
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    margin: 2px 1px;
+    border-radius: 10%;
+}
+
+#navbar {
+    font-size: x-small;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+h1 {
+    color: deeppink;
+}
+
+h5 {
+    font-weight: normal;
+    margin-top: 20ch;
+}
+
+#two-headings {
+    display: flex;
+    justify-content: center;
+}
+
+.two-headings,
+h5 {
+    font-size: x-small;
+}
+
+.two-headings,
+h1 {
+    color: deeppink;
+}
+
+.two-headings,
+button {
+    color: deeppink;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: left;
+}
+
+.sly {
+    margin: 20px;
+    width: 50%;
+    padding: 8px;
+
+}
+
+img {
+    float: left;
+    margin-top: 0%;
+    width: 300px;
+    height: 300px;
+    padding: 0%;
+}
+
+.text {
+    text-align: right;
+    font-family: "Nunito";
+}
+
+.boyani {
+    margin: 20px;
+    ;
+    width: 50%;
+    padding: 8px;
+
+}
+
+img {
+    float: right;
+    margin-top: 0%;
+    width: 300px;
+    height: 300px;
+    padding: 0 0 0 0;
+}
+
+.text {
+    text-align: left;
+    font-family: "Nunito";
+}
+
+.sylvia {
+    margin: 20px;
+    ;
+    width: 50%;
+    padding: 8px;
+
+}
+
+img {
+    float: left;
+    margin-top: 0%;
+    width: 300px;
+    height: 300px;
+    padding: 0 0 0 0;
+}
+
+.text {
+    text-align: right;
+    font-family: "Nunito";
+}
+
+.row {
+    box-sizing: border-box;
+    float: inline;
+}
+
+.column {
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

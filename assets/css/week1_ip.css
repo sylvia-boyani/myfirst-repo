@@ -1,7 +1,8 @@
 * {
-    margin-right: 40px;
     font-family: "Nunito";
     padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -13,8 +14,7 @@ h4 {
     display: inline;
 }
 
-.navbar,
-button,{
+.navbar, button{
     background-color: deeppink;
     color: black;
     text-align: center;
@@ -72,7 +72,17 @@ h3 {
     text-align: left;
 }
 
-#sly{ display:flex;
+.boardRight{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#sly{ 
+    display:flex;
+    margin-top: 100px;
+    margin-right: 20px;
+}
     
 
 
@@ -84,7 +94,7 @@ h3 {
 
 
 
-    
+
 
 .text {
     text-align: left;

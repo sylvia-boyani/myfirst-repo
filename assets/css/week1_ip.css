@@ -14,7 +14,7 @@ h4 {
 }
 
 .navbar,
-button {
+button,{
     background-color: deeppink;
     color: black;
     text-align: center;
@@ -25,6 +25,7 @@ button {
     margin: 2px 1px;
     border-radius: 10%;
 }
+
 
 #navbar {
     font-size: x-small;
@@ -62,7 +63,8 @@ h1 {
 
 .two-headings,
 button {
-    color: deeppink;
+    background-color: deeppink;
+    color:white;
 }
 
 h3 {
@@ -70,37 +72,19 @@ h3 {
     text-align: left;
 }
 
-.sly {
-    display:flex;
-    justify-content:left;
-}
-
-.sly, img {
-    float: left;
-    margin-top:10px;
-}
-.sly, button{
-    color:white;
-    background-color:deeppink;
-}
-.hs{
-    font-weight:normal
-
-}
-
-
-.boyani {
+#sly{ display:flex;
     
 
-}
 
-img {
-    float: right;
-    margin-top: 0%;
-    width: 300px;
-    height: 300px;
-    padding: 0 0 0 0;
-}
+
+
+
+
+
+
+
+
+    
 
 .text {
     text-align: left;

@@ -125,6 +125,7 @@ img {
 .row {
     box-sizing: border-box;
     display: flex;
+    margin-top: 50px;
 }
 
 .column {

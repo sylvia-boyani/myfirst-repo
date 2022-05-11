@@ -72,37 +72,25 @@ h3 {
     text-align: left;
 }
 
-.boardRight{
-    display: flex;
-    box-sizing: border-box;
-    margin: 0 auto;
-}
 
 #sly{ 
     display:flex;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-right: 100px;
 }
     
-
-
-
-
-
-
-
-
-
-
-
 
 .text {
     text-align: left;
     font-family: "Nunito";
 }
 
+.boyani, img{ margin-left: 20px;
+
+}
+
 .sylvia {
-    margin: 20px;
+    margin-top: 200px;
     ;
     width: 50%;
     padding: 8px;
@@ -125,7 +113,14 @@ img {
 .row {
     box-sizing: border-box;
     display: flex;
-    margin-top: 50px;
+    margin-top: 400px;
+}
+
+.row, h3{
+    color:deeppink;
+}
+.row, h3, p{
+    color: black;
 }
 
 .column {
@@ -137,4 +132,13 @@ img {
     content: "";
     clear: both;
     display: table;
+}
+
+.bike{
+    margin-top: 100px;
+}
+
+
+.last{
+    margin-top: 100px;
 }

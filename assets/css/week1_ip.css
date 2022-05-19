@@ -1,8 +1,8 @@
 * {
     font-family: "Nunito";
     padding: 0%;
-    margin: 10px;
-    box-sizing: border-box;
+    margin: auto;
+   /* box-sizing: border-box;*/
 }
 
 a {
@@ -29,9 +29,11 @@ button {
 
 
 #navbar {
-    font-size: x-small;
+    font-size:large;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
+    box-sizing: border-box solid red;
+    
 }
 
 #navbar ul li {
@@ -73,15 +75,21 @@ h3 {
     text-align: left;
 }
 
-#sly {
-    display: flex;
-    margin-top: 100px;
-    margin-right: 20px;
+
+#sly{ 
+    display:flex;
+    margin-top: 200px;
+    margin-right: 100px;
 }
+    
 
 .text {
     text-align: left;
     font-family: "Nunito";
+}
+
+.boyani, img{ margin-left: 20px;
+
 }
 
 .sylvia {
@@ -107,8 +115,14 @@ img {
 .row {
     box-sizing: border-box;
     display: flex;
-    margin-top: 300px;
+    margin-top: 400px;
+}
 
+.row, h3{
+    color:deeppink;
+}
+.row, h3, p{
+    color: black;
 }
 
 .column {
@@ -121,17 +135,12 @@ img {
     clear: both;
     display: table;
 }
-.row h3{
-    color: deeppink;
-    
-}
 
 .bike{
-margin-top: 100px;
+    margin-top: 100px;
 }
 
 
-.bike img{
-    display: flex;
-    float: left;
+.last{
+    margin-top: 100px;
 }

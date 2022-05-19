@@ -1,7 +1,7 @@
 * {
     font-family: "Nunito";
     padding: 0%;
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
 }
 
@@ -14,7 +14,8 @@ h4 {
     display: inline;
 }
 
-.navbar, button{
+.navbar,
+button {
     background-color: deeppink;
     color: black;
     text-align: center;
@@ -64,7 +65,7 @@ h1 {
 .two-headings,
 button {
     background-color: deeppink;
-    color:white;
+    color: white;
 }
 
 h3 {
@@ -72,29 +73,11 @@ h3 {
     text-align: left;
 }
 
-.boardRight{
+#sly {
     display: flex;
-    box-sizing: border-box;
-    margin: 0 auto;
-}
-
-#sly{ 
-    display:flex;
     margin-top: 100px;
     margin-right: 20px;
 }
-    
-
-
-
-
-
-
-
-
-
-
-
 
 .text {
     text-align: left;
@@ -102,8 +85,7 @@ h3 {
 }
 
 .sylvia {
-    margin: 20px;
-    ;
+    margin-top: 200px;
     width: 50%;
     padding: 8px;
 
@@ -124,7 +106,9 @@ img {
 
 .row {
     box-sizing: border-box;
-    float: inline;
+    display: flex;
+    margin-top: 300px;
+
 }
 
 .column {
@@ -136,4 +120,18 @@ img {
     content: "";
     clear: both;
     display: table;
+}
+.row h3{
+    color: deeppink;
+    
+}
+
+.bike{
+margin-top: 100px;
+}
+
+
+.bike img{
+    display: flex;
+    float: left;
 }

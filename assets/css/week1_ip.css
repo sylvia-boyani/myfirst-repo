@@ -2,7 +2,7 @@
     font-family: "Nunito";
     padding: 0%;
     margin: auto;
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
 }
 
 a {
@@ -28,9 +28,11 @@ h4 {
 
 
 #navbar {
-    font-size: x-small;
+    font-size:large;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
+    box-sizing: border-box solid red;
+    
 }
 
 #navbar ul li {
